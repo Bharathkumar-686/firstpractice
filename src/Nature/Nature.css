@@ -1,0 +1,291 @@
+.main {
+    background-color: black;
+}
+
+.img {
+    background-image: url("https://wallpaperaccess.com/full/1686775.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.travel {
+    color: white;
+    margin-left: 70px;
+}
+
+.gallery {
+    color: white;
+    font-size: 12px;
+    margin: 30px;
+}
+
+.row {
+    display: flex;
+    margin-right: 30px;
+}
+
+.trow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.explore {
+    color: white;
+    font-size: 100px;
+    margin-bottom: -100px;
+    margin-top: 250px;
+}
+
+.the {
+    color: white;
+    font-size: 100px;
+}
+
+.etd {
+    margin-left: 70px;
+    margin-top: 100px;
+}
+
+.start {
+    color: white;
+}
+
+
+
+.journey {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #262520;
+    height: 30px;
+    width: 600px;
+    color: white;
+    padding: 10px;
+    margin-top: -50px; 
+}
+
+.craotica {
+    height: 200px;
+    width: 400px;
+    padding: 5px;
+}
+
+.pic {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 70px;
+}
+
+.enjoy {
+    color: white;
+    font-size: 60px;
+}
+
+.world {
+    color: white;
+    font-size: 60px;
+    margin-top: -60px;
+}
+
+.raj {
+    margin-left: 70px;
+}
+
+.ravi {
+    margin-left: 70px;
+    margin-top: -30px;
+}
+
+.sha {
+    height: 300px;
+    width: 450px;
+    padding: 10px;
+}
+
+@media screen and (max-width: 426px) {
+    body {
+        .travel {
+            color: white;
+            margin-left: 20px;
+        }
+
+        .row {
+            display: flex;
+            margin-right: 50px;
+        }
+        
+        .gallery {
+            color: white;
+            font-size: 12px;
+            margin: 30px;
+            margin-left: 10px;
+
+        }
+
+        .explore {
+            color: white;
+            font-size: 50px;
+            margin-bottom: -50px;
+        }
+        
+        .the {
+            color: white;
+            font-size: 50px;  
+        }
+
+        .etd {
+            margin-left: 20px;
+            margin-top: 100px;
+        }
+
+        .journey {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #262520;
+            height: 30px;
+            width: 80vw;
+            color: white;
+            padding: 5px;
+            margin-top: 40px;  
+        }
+
+        .start {
+            color: white;
+            font-size: 15px;
+        }
+
+        .pic {
+            margin-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-items: center;
+            
+            
+                       
+        }
+
+        .craotica {
+            height: 170px;
+            width: 90vw; 
+        }
+
+        .enjoy {
+            color: white;
+            font-size: 35px;
+        }
+        
+        .world {
+            color: white;
+            font-size: 35px;
+            margin-top: -30px;
+        }
+
+        /* .raj {
+            margin-left: 10px;
+        } */
+
+        .ravi {
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+           padding-bottom: 20px;
+           
+        
+        }
+        
+        .sha {
+            height: 200px;
+            width: 90vw;
+            /* display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin:  auto; */
+            /* padding: 5px; */
+        }
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .travel {
+        color: white;
+        margin-left: 40px;
+        font-size: 30px;
+    }
+
+    .gallery {
+        color: white;
+        font-size: 15px;
+        margin: 30px;
+    }
+
+    .explore {
+        color: white;
+        font-size: 80px;
+        margin-bottom: -100px;
+        margin-top: 250px;
+    }
+    
+    .the {
+        color: white;
+        font-size: 80px;
+    }
+    
+    .etd {
+        margin-left: 40px;
+        margin-top: 100px;
+    }
+    
+    .start {
+        color: white;
+    }
+
+    .pic {
+        margin-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 10px;
+    }
+
+    .craotica {
+        height: 200px;
+        width: 350px;
+        padding: 5px;
+    }
+
+    .raj {
+        margin-left: 20px;
+    }
+
+    .sha {
+        height: 420px;
+        width: 90vw;
+        padding: 2px;
+        border-radius: 10px;
+    }
+
+    .ravi {
+        margin-left: 10px;
+        margin-top: -30px;
+    }
+
+    .journey {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #262520;
+        height: 30px;
+        width: 80vw;
+        color: white;
+        padding: 10px;
+        margin-top: -50px; 
+    }
+  }
+
